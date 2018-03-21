@@ -13,7 +13,7 @@ if($content) {
         $chat_id = $message['chat']['id'];
         $from_id = $message['from']['id'];
 
-        //$text = $message['text'];
+        $text = $message['text'];
 
         $parameters = array(
             'chat_id' => $chat_id,
